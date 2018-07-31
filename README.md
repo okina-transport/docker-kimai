@@ -1,12 +1,13 @@
 # docker-kimai
 
 A docker image for Kimai time tracking based on the [official php docker image](https://hub.docker.com/_/php/).
+V 1.3.1 at this time.
 
 This repository also contains a `docker-compose.yaml` configuration file for simple usage together with the [official mariadb image](https://hub.docker.com/_/mariadb/).
 
 ## Supported tags and respective Dockerfile links
 
-* `1.1.0`, `stable`, `latest` [(Dockerfile)](https://github.com/fkoester/docker-kimai/blob/master/Dockerfile)
+* `1.3.1`, `stable`, `latest` [(Dockerfile)](https://github.com/fkoester/docker-kimai/blob/master/Dockerfile)
 
 ## Getting started
 
@@ -44,3 +45,4 @@ docker-compose exec kimai rm -rf /var/www/html/installer
 Create a file `.env` in the working directory with any of the following variables:
 
 * `EXTERNAL_PORT`: The external port (and ip address) to bind to (default `127.0.0.1:8080`)
+
