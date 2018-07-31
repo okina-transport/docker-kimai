@@ -1,7 +1,7 @@
 version: '2.1'
 services:
   kimai:
-    image: maestroalubia/kimai
+    image: registry.okina.fr/tools/kimai:1.3.1
     ports:
       - ${EXTERNAL_PORT:-127.0.0.1:8080}:80
     restart: always
